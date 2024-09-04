@@ -1,0 +1,507 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body
+{
+height: 100%;
+width: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 20%;
+    height: 100%;
+  
+
+
+}
+#main #left i{
+    display: no;
+}
+#right{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(145, 180, 245);
+}
+#left #up{
+    width: 100%;
+    height: 40px;
+    /* background-color: moccasin; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'GILROY';
+    font-size: 13px;
+    padding-left: 20px;
+    padding: 20px;
+}
+#main>#left #up i{
+    /* display: none; */
+}
+#left #down{
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(255, 255, 241); */
+    padding: 20px;
+    padding-top: 10px;
+
+}
+#left #down #box{
+    width: 100%;
+    height: 35px;
+    /* background-color: rgb(88, 88, 88); */
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    padding-left:  10px;
+    padding-right: 20px;
+    color: rgb(97, 97, 97);
+    border-bottom: 1px solid rgb(164, 164, 164);
+    
+    
+}
+#left #down #box h3{
+    padding-left: 20px;
+    font-family: 'GILROY';
+    font-size: 17px;
+
+}
+#left #down #box i{
+    font-size: 18px;
+
+}
+#right #nav{
+    width: 100%;
+    /* height: 60px; */
+    height: 8%;
+    /* background-color: rgb(159, 242, 195); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 20px;
+}
+#right #nav input{
+    width: 80%;
+    height: 40px;
+    margin: 0 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-size: 15px;
+    /* outline: 1px solid gray; */
+}
+#right #nav #profilephoto{
+    width: 30px;
+    height: 30px;
+    /* background-color: mediumspringgreen; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+#right #nav #profilephoto img{
+    width: 100%;
+    height: 100%;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /* background-color: pink; */
+    width: 15%;
+}
+#right #down{
+    width: 100%;
+    height: 92%;
+    /* background-color: coral; */
+    padding: 15px;
+}
+#right #down #top{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'GILROY';
+}
+#right #down #top #left-top{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+}
+#right #down #top #right-top{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#right #down #top #left-top h4{
+    background-color: rgba(135, 206, 250, 0.841);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.819);
+}
+#right #down #top #right-top button{
+    color: royalblue;
+    border: 1px solid royalblue;
+    background: transparent;
+    padding: 5px 10px;
+}
+#right #down #top #right-top select{
+    color: royalblue;
+    border: 1px solid royalblue;
+    background: transparent;
+    padding: 5px 10px;
+}
+#right #down #top-2{
+    width: 100%;
+    height: 10%;
+    /* background-color: violet; */
+    font-family: "Gilroy";
+    display: flex;
+}
+#right #down #top-2>#left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#right #down #top-2>#left h5{
+    padding-left: 10px;
+}
+#right #down #top-2>#left .color{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+#right #down #top-2>#left  #red{
+    background-color: red;
+}
+#right #down #top-2>#left  #green{
+    background-color: green;
+}
+#right #down #top-2>#left  #blue{
+    background-color: blue;
+}
+#right #down #top-2>#right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 50px;  
+}
+#right #down #top-2>#right #box{
+    display: flex;
+    padding-left: 20px;
+    gap: 5px;
+    align-items: center;
+}
+#right #down #top-3{
+    width: 100%;
+    height: 40%;
+    /* background-color: slateblue; */
+    display: flex;
+    justify-content: space-between;
+}
+#right #down #top-3>#left{
+    width: 48%;
+    height: 100%;
+    background-color: snow;
+}
+#right #down #top-3>#right{
+    width: 48%;
+    height: 100%;
+    background-color: snow;
+}
+#right #down #top-4{
+    width: 100%;
+    height:37%;
+    /* background-color: slateblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#right #down #top-4>#left{
+    width: 30%;
+    height: 100%;
+    background-color: snow;
+}
+#right #down #top-4>#right{
+    width: 68%;
+    height: 100%;
+    background-color: snow;
+}
+
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        html,body
+        {
+        height: 100%;
+        width: 100%;
+        
+        }
+    #main{
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+    }
+    #main>#left{
+        width: 65%;
+        height: 100%;
+        position: absolute;
+        left: -65%;
+        background-color: white;
+        z-index: 9999;
+        transition: 0.7s;
+
+    }
+    #main>#left #up{
+        display: flex;
+        justify-content: space-between;
+    }
+    #main>#left i{
+        font-size: 27px;
+        display: initial;  
+    }
+   
+
+    #main>#right{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+    }
+    #right #nav{
+        width: 100%;
+        /* height: 60px; */
+        height: 8%;
+        /* background-color: rgb(159, 242, 195); */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    #right #nav i{
+        /* background-color: darkblue; */
+        font-size: 25px;
+        margin-left: 15px;
+        
+    }
+    #right #nav input{
+        width: 90%;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 7px;
+        padding-left: 10px;
+        font-size: 15px;
+        margin-left: 5%;
+        /* margin-right: 0%; */
+        /* outline: 1px solid gray; */
+        border: 1px solid rgb(29, 29, 29);
+    }
+    #right #nav #profilephoto{
+        width: 30px;
+        height: 30px;
+        /* background-color: mediumspringgreen; */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    #right #nav #profilephoto img{
+        width: 100%;
+        height: 100%;
+    }
+    #nav-right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        /* background-color: pink; */
+        width: 25%;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    /* right down 1st */
+    /* #nav-right>i{
+        display: none;
+    } */
+    #nav-right .none{
+        display: none;
+    }
+
+
+
+    #right #down{
+        width: 100%;
+        height: 92%;
+        /* background-color: coral; */
+        padding: 15px;
+        /* background-color: darkorchid; */
+    }
+    #right #down #top{
+        width: 100%;
+        height: 16%;
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'GILROY';
+        font-size: 12px;
+    }
+    #right #down #top #left-top{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+        gap: 20px;
+        /* background-color: wheat; */
+    }
+    #right #down #top #right-top{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: whitesmoke; */
+    }
+    #right #down #top #left-top h4{
+        background-color: rgba(135, 206, 250, 0.841);
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.819);
+    }
+    #right #down #top #right-top button{
+        color: royalblue;
+        border: 1px solid royalblue;
+        background: transparent;
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+    #right #down #top #right-top select{
+        color: royalblue;
+        border: 1px solid royalblue;
+        background: transparent;
+        padding: 5px 10px;
+    }
+    
+
+
+    #right #down #top-2{
+        width: 100%;
+        height: 15%;
+        /* background-color: violet; */
+        font-family: "Gilroy";
+        display: flex;
+        flex-direction: column;
+    }
+    #right #down #top-2>#left{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(145, 171, 252);
+        margin-top: 8px;
+    }
+    #right #down #top-2>#left h5{
+        padding-left: 10px;
+    }
+    #right #down #top-2>#left .color{
+        width: 10px;
+        height: 10px;
+        margin-left: 8px;
+        
+    }
+    #right #down #top-2>#left  #red{
+        background-color: red;
+    }
+    #right #down #top-2>#left  #green{
+        background-color: green;
+    }
+    #right #down #top-2>#left  #blue{
+        background-color: rgb(107, 107, 245);
+    }
+    #right #down #top-2>#right{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        /* padding-left: 50px;*/
+        background-color: rgb(235, 235, 235);
+        padding-left: 0px;
+        margin-top: 5px;
+    }
+    #right #down #top-2>#right #box{
+        padding-left: 0;
+        display: flex;
+        /* padding-left: 20px; */
+        margin-left: 10px;
+        gap: 5px;
+        align-items: center;
+        
+    }
+
+
+
+
+    #right #down #top-3{
+        width: 100%;
+        height: 80%;
+        /* background-color: slateblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #right #down #top-3>#left{
+        width: 100%;
+        height: 48%;
+        background-color: rgb(190, 167, 167);
+    }
+    #right #down #top-3>#right{
+        width: 100%;
+        height: 48%;
+        background-color: rgb(190, 167, 167);
+    }
+    #right #down #top-4{
+        width: 100%;
+        height:80%;
+        /* background-color: slateblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #right #down #top-4>#left{
+        width: 100%;
+        height: 48%;
+        background-color: rgb(190, 167, 167);
+    }
+    #right #down #top-4>#right{
+        width: 100%;
+        height: 48%;
+        background-color: rgb(190, 167, 167);
+    }
+    
+}
